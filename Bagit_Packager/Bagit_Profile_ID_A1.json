@@ -222,8 +222,56 @@
                 "Voice Over"
             ]
         },
-        "Audio_Configuration": {
+        "Audio_Configuration1": {
             "required": true,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration2": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration3": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration4": {
+            "required": false,
             "values": [
                 "1.0 Mono",
                 "2.0 Mono",
