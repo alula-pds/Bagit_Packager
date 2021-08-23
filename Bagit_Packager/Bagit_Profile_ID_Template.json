@@ -438,8 +438,11 @@
             ]
         },
         "Image_DPI": {
-            "required": true,
-
+            "required": false,
+            "values": [
+                "72",
+                "300"
+            ]
         },
         "Picture_Display": {
             "required": true,
