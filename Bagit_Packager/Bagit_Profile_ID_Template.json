@@ -15,7 +15,7 @@
                 "Watterson"
             ]
         },
-        "Provider_Title_ID": {
+        "EscherID": {
             "required": true
         },
         "Rendition": {
@@ -679,7 +679,9 @@
                 "Theatrical"
             ]
         },
-        "Keywords": {"required": true},
+        "Keywords": {
+            "required": true
+        },
         "Call_To_Action": {
             "required": true,
             "values": [
@@ -712,7 +714,9 @@
                 "YouTube"
             ]
         },
-        "Revision_Number": {"required": true},
+        "Revision_Number": {
+            "required": true
+        }
     },
     "Manifests-Required": ["md5"],
     "Serialization": "optional",
