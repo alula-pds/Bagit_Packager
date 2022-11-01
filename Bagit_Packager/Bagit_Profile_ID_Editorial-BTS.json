@@ -15,6 +15,12 @@
                 "Watterson"
             ]
         },
+        "Inventory_Group": {
+            "required": true,
+            "values": [
+                "Alula Video"
+            ]
+        },
         "UMCVARID": {
             "required": true
         },
