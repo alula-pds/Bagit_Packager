@@ -3,7 +3,7 @@
         "BagIt-Profile-Identifier": "",
         "Source-Organization": "",
         "Contact-Email": "",
-        "External-Description": "Profile: A1",
+        "External-Description": "Profile: TT-Transcript",
         "Version": "1.0"
     },
     "Bag-Info": {
@@ -211,7 +211,7 @@
             ]
         },
         "Format_Description": {
-            "required": true,
+            "required": false,
             "values": [
                 "Audio - ATMOS ADM BWF (.wav)",
                 "Audio - ATMOS DAMF (.atmos)",
@@ -288,8 +288,56 @@
                 "Video - Zraw (.mov)"
             ]
         },
-        "Audio_Language": {
+        "Timed Text Language": {
             "required": true,
+            "values": [
+                "Arabic (ar)",
+                "Bulgarian (bg)",
+                "Cantonese (Script) (yue-Hant)",
+                "Czech (cs)",
+                "Danish (da)",
+                "Dutch (Belgium) (nl-BE)",
+                "Dutch (nl)",
+                "English (en)",
+                "Estonian (et)",
+                "Finnish (fi)",
+                "French (Canada) (fr-CA)",
+                "French (France) (fr-FR)",
+                "German (de)",
+                "Greek (el)",
+                "Hebrew (he)",
+                "Hindi (hi)",
+                "Hungarian (hu)",
+                "Indonesian (id)",
+                "Italian (it)",
+                "Japanese (ja)",
+                "Korean (ko)",
+                "Latvian (lv)",
+                "Lithuanian (lt)",
+                "Malay (ms)",
+                "Mandarin(Simp Scr) (cmn-Hans)",
+                "Mandarin(Trad Scr) (cmn-Hant)",
+                "Norwegian (no)",
+                "Polish (pl)",
+                "Portuguese (Brazil) (pt-BR)",
+                "Portuguese (pt)",
+                "Russian (ru)",
+                "Slovak (sk)",
+                "Slovenian (sl)",
+                "Spanish (Lat America) (es-419)",
+                "Spanish (Spain) (es-ES)",
+                "Swedish (sv)",
+                "Tamil (ta)",
+                "Telugu (te)",
+                "Thai (th)",
+                "Turkish (tr)",
+                "Ukrainian (uk)",
+                "Vietnamese (vi)",
+                "Tagalog (tl)"
+            ]
+        },
+        "Audio_Language": {
+            "required": false,
             "values": [
                 "OV",
                 "Arabic",
@@ -336,7 +384,7 @@
             ]
         },
         "Audio_Content": {
-            "required": true,
+            "required": false,
             "values": [
                 "ADR",
                 "ADR Censored",
@@ -375,7 +423,7 @@
             ]
         },
         "Audio_Configuration1": {
-            "required": true,
+            "required": false,
             "values": [
                 "1.0 Mono",
                 "2.0 Mono",
@@ -439,7 +487,7 @@
             ]
         },
         "Audio_Loudness": {
-            "required": true,
+            "required": false,
             "values": [
                 "NF: -16LKFS",
                 "NF: -17LKFS",

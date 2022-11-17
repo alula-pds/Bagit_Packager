@@ -3,7 +3,7 @@
         "BagIt-Profile-Identifier": "",
         "Source-Organization": "",
         "Contact-Email": "",
-        "External-Description": "Profile: A1",
+        "External-Description": "Profile: Editorial-Dailies-Sound",
         "Version": "1.0"
     },
     "Bag-Info": {
@@ -211,7 +211,7 @@
             ]
         },
         "Format_Description": {
-            "required": true,
+            "required": false,
             "values": [
                 "Audio - ATMOS ADM BWF (.wav)",
                 "Audio - ATMOS DAMF (.atmos)",
@@ -375,7 +375,7 @@
             ]
         },
         "Audio_Configuration1": {
-            "required": true,
+            "required": false,
             "values": [
                 "1.0 Mono",
                 "2.0 Mono",
