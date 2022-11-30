@@ -153,7 +153,7 @@
                 "Audio: ProTools Session (.ptx)",
                 "Audio: QT Joined (.mov)",
                 "Audio: Waveform (.wav)",
-                "Complex Asset: BagIt (.bag)",
+                "Complex Asset - BagIt (.bag)",
                 "Complex Asset: Material Exchange Format (.mxf)",
                 "Complex Asset: Tar (.tar)",
                 "Complex Asset: ZIP (.zip)",
