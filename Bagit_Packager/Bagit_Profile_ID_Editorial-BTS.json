@@ -18,7 +18,8 @@
         "Inventory_Group": {
             "required": true,
             "values": [
-                "Alula Video"
+                "Alula Video",
+                "ATV Custom Content"
             ]
         },
         "UMCVARID": {
