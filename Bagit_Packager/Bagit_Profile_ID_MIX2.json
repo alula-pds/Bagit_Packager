@@ -3,16 +3,55 @@
         "BagIt-Profile-Identifier": "",
         "Source-Organization": "",
         "Contact-Email": "",
-        "External-Description": "Bagit_Profile_ID_24",
+        "External-Description": "Profile: Mixed: Archive Consolidation",
         "Version": "1.0"
     },
     "Bag-Info": {
         "Inventory": {
-            "required": false,
+            "required": true,
             "values": [
                 "Alula",
                 "AMOP Preservation",
                 "Watterson"
+            ]
+        },
+        "Inventory_Group": {
+            "required": true,
+            "values": [
+                 "Alula Video",
+                 "ATV Custom Content",
+                 "ATV Creative Ad"
+            ]
+        },
+        "Essence": {
+            "required": true,
+            "values": [
+                "Digital - Core Object",
+                "Digital - Carrier",
+                "Digital Container",
+                "Hard Drive",
+                "Part",
+                "Physical - Box",
+                "Physical - Carrier",
+                "Physical - Core Object"
+            ]
+        },
+        "Media Type": {
+            "required": true,
+            "values": [
+                "LTO",
+                "LTO-7",
+                "LTO-8",
+                "Hard Drive",
+                "DVD-R",
+                "Film",
+                "Audio",
+                "Disk",
+                "Digital",
+                "Video",
+                "Packing Box",
+                "Pelican Case",
+                "File"
             ]
         },
         "UMCVARID": {
@@ -125,37 +164,87 @@
                 "Still"
             ]
         },
-        "Inventory_Type": {
+        "Asset_Sub_Type": {
             "required": false,
             "values": [
-                "Distribution",
-                "Preservation"
+                "Artwork - Backdrop",
+                "Artwork - Billboard",
+                "Artwork - Brand Guidelines",
+                "Artwork - Brickrow",
+                "Artwork - Bus Stop",
+                "Artwork - Bus Wrap",
+                "Artwork - Cast Image",
+                "Artwork - Centered Background",
+                "Artwork - Centered Background Small",
+                "Artwork - Character Art",
+                "Artwork - Cover Art",
+                "Artwork - Cover Art Template",
+                "Artwork - Executive Producer Image",
+                "Artwork - Keyframe Trailer",
+                "Artwork - Keyframe Episode",
+                "Artwork - Keyframe Bonus",
+                "Artwork - Keyframe Promo",
+                "Artwork - Crew Image",
+                "Artwork - TV Screen Fills",
+                "Artwork - VUZE Featuring Artwork",
+                "Artwork - Notification Thumbnail",
+                "Artwork - Email Assets",
+                "Artwork - Legal",
+                "Artwork - Master Suite",
+                "Artwork - Photo",
+                "Artwork - Poster",
+                "Artwork - Ribbon",
+                "Artwork - Ribbon - Motion Graphic",
+                "Artwork - Spotlight",
+                "Artwork - Template",
+                "Artwork - Thumbnail",
+                "Artwork - Tile Art",
+                "Artwork - Title Treatment",
+                "Artwork - Windows",
+                "Auxiliary - Ambient Video",
+                "Auxiliary - Background Video",
+                "Insert - Bundle - Alt/Cover Shots",
+                "Insert - Bundle - Localized Text",
+                "Insert - Bundle - Textless",
+                "Insert - Credits - Dubbing",
+                "Insert - Credits - End",
+                "Insert - Program w/o End Credits",
+                "Insert - Rating Card",
+                "Insert - Title Sequence - Main on End",
+                "Insert - Title Sequence - Opening"
             ]
         },
-        "Media_Type": {
+        "Conformed_Frame_Rate": {
             "required": false,
             "values": [
-                "DVD-R",
-                "Film",
-                "Hard Drive",
-                "LTO-6",
-                "LTO-7",
-                "LTO-8",
-                "File"
+                "23.976",
+                "24",
+                "25",
+                "29.97NDF",
+                "29.97DF",
+                "30",
+                "59.94",
+                "60"
             ]
         },
-        "Essence": {
+        "Reel_Number": {
             "required": false,
             "values": [
-                "Digital - Carrier",
-                "Digital - Core Object",
-                "Physical - Box",
-                "Physical - Carrier",
-                "Physical - Core Object"
+                "Reel 1",
+                "Reel 2",
+                "Reel 3",
+                "Reel 4",
+                "Reel 5",
+                "Reel 6",
+                "Reel 7",
+                "Reel 8",
+                "Reel 9",
+                "Reel 10",
+                "Reel 11"
             ]
         },
         "Format_Description": {
-            "required": true,
+            "required": false,
             "values": [
                 "Audio - ATMOS ADM BWF (.wav)",
                 "Audio - ATMOS DAMF (.atmos)",
@@ -231,12 +320,193 @@
                 "Video - XOCN (.mxf)",
                 "Video - Zraw (.mov)"
             ]
-        },       
+        },
+        "Audio_Language": {
+            "required": false,
+            "values": [
+                "OV",
+                "Arabic",
+                "Bulgarian",
+                "Cantonese",
+                "Czech",
+                "Danish",
+                "Dutch",
+                "Dutch (Belgium)",
+                "English",
+                "Estonian",
+                "Finnish",
+                "French (Canada)",
+                "French (France)",
+                "German",
+                "Greek",
+                "Hebrew",
+                "Hindi",
+                "Hungarian",
+                "Indonesian",
+                "Italian",
+                "Japanese",
+                "Korean",
+                "Latvian",
+                "Lithuanian",
+                "Malay",
+                "Mandarin",
+                "Norwegian",
+                "Polish",
+                "Portuguese",
+                "Portuguese (Brazil)",
+                "Russian",
+                "Slovak",
+                "Slovenian",
+                "Spanish (Latin America)",
+                "Spanish (Spain)",
+                "Swedish",
+                "Tamil",
+                "Telugu",
+                "Thai",
+                "Turkish",
+                "Ukrainian",
+                "Vietnamese"
+            ]
+        },
+        "Audio_Content": {
+            "required": false,
+            "values": [
+                "ADR",
+                "ADR Censored",
+                "ADR Group",
+                "Audio Description",
+                "Audio Description - Dialogue Raw",
+                "Background",
+                "Commentary",
+                "Dailies",
+                "Dialogue",
+                "Dialogue - Raw",
+                "Dialogue with Audio Description",
+                "Dialogue, Music, and Effects",
+                "Dub Reference Kit",
+                "Effects",
+                "Effects - Fully Filled",
+                "Foley",
+                "Full Mix",
+                "Full Mix with Audio Description",
+                "Group",
+                "Guide Track",
+                "Laughs",
+                "M&E",
+                "Mix Minus",
+                "MOS",
+                "Music",
+                "Music - Original Recording",
+                "Narration",
+                "Narration, Dialogue, Music, and Effects",
+                "Optional Tracks",
+                "Pre-Dub",
+                "Sweetener",
+                "Tone",
+                "Vocals",
+                "Voice Over"
+            ]
+        },
+        "Audio_Configuration1": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration2": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration3": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Configuration4": {
+            "required": false,
+            "values": [
+                "1.0 Mono",
+                "2.0 Mono",
+                "2.0 Stereo (Lo/Ro)",
+                "2.0 Surround (LT/RT)",
+                "2.0 True Stereo",
+                "5.0 (for vocals)",
+                "5.1 Surround",
+                "7.1 Surround",
+                "ATMOS",
+                "IMAX 12.0",
+                "IMAX 6.0"
+            ]
+        },
+        "Audio_Loudness": {
+            "required": false,
+            "values": [
+                "NF: -16LKFS",
+                "NF: -17LKFS",
+                "NF: -24LKFS DX",
+                "NF: -24LKFS non-DX",
+                "NF: -27LKFS DX",
+                "NF: -27LKFS non-DX",
+                "NF: Full Range",
+                "Theatrical"
+            ]
+        },
         "Keywords": {"required": false},
-        "AssetId": {"required": true},
-        "Revision_Number": {"required": false},
-        "Note": {"required": false},
-        "Master_Desc": {"required": false}
+        "Usage": {
+            "required": false,
+            "values": [
+                "Ad Buy",
+                "Desktop",
+                "Digital",
+                "Feature",
+                "iOS",
+                "Mobile",
+                "Off Platform",
+                "Platform",
+                "Platform - Brick Row",
+                "Print",
+                "Rich Media Push Notifications",
+                "Tablet",
+                "Takeover",
+                "TV",
+                "Ubisoft",
+                "YouTube"
+            ]
+        },
+        "Revision_Number": {"required": false}
     },
     "Manifests-Required": ["md5"],
     "Serialization": "optional",
